@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <h3 id="texto"></h3>
+        <div class="textos">
+            <h4 id="resumenJuana"></h4>
+            <h4 id="resumenPedro"></h4>
+        </div>
+        <div class="empleados">
+            <div class="juanaContainer">
+                <h2>Juana</h2>
+                <form action="">
+                    <h4>Productos que vendió Juana</h4>
+                    <label for="">Aqua</label>
+                    <input name="Aqua" type="number" value="0" id="aqua" min="0">
+                    <label for="">Emoción</label>
+                    <input name="Emocion" type="number" value="0" id="emocion" min="0">
+                    <label for="">Alegría</label>
+                    <input name="Alegria" type="number" value="0" id="alegria" min="0">
+                    <label for="">Frescura</label>
+                    <input name="Frescura" type="number" value="0" id="frescura" min="0">
+                </form>
+            </div>
+            <div class="pedroContainer">
+                <h2>Pedro</h2>
+                <form action="">
+                    <h4>Productos que vendió Pedro</h4>
+                    <label for="">Aqua</label>
+                    <input name="Aqua" type="number" value="0" id="aqua2" min="0">
+                    <label for="">Emoción</label>
+                    <input name="Emocion" type="number" value="0" id="emocion2" min="0">
+                    <label for="">Alegría</label>
+                    <input name="Alegria" type="number" value="0" id="alegria2" min="0">
+                    <label for="">Frescura</label>
+                    <input name="Frescura" type="number" value="0" id="frescura2" min="0">
+                </form>
+            </div>
+        </div>
+        <button onclick="calcular()">Calcular</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
